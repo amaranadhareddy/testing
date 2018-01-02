@@ -76,6 +76,7 @@ public class EmpTest {
 	public void testEmp1(){
 		List<Emp> actual = ser.viewEmployee("id");
 		assertTrue(actual.size() == nameList.size());
+		verify(dao, times(1)).getEmployee();
 	}
 	
 	@Test

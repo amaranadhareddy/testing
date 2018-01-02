@@ -10,8 +10,10 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.runner.RunWith;
+import org.mockito.InOrder;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
+import org.mockito.Mockito;
 
 import com.sapient.dao.IDao;
 import com.sapient.exceptions.BalException;
@@ -56,7 +58,9 @@ public class TransferTest {
 		assertAll("transfer fund", ()->assertTrue(ser.transferFund(1001, 1002, 5000)),
 								   ()->assertEquals(5000, acc1.getBal()),
 								   ()->assertEquals(10000, acc2.getBal()));
-								   
+		InOrder order = Mockito.inOrder(dao);
+		order.verify(dao).getAccount(1001);
+		order.verify(dao).getAccount(1002);
 	}
 	
 	@Test

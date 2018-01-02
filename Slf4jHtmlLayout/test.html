@@ -1,0 +1,451 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Jan 02 15:34:05 IST 2018</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="debug even">
+<td class="RelativeTime">145</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">logger initialized with 3 acccount instances</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">150</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">injecting mock</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">150</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">dao initialized</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">151</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">service instance created</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">151</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">transfer the amount 5000 from account id 1001 to 1002</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">151</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">151</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1001 found</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">152</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">from account retrieved</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">153</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">153</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1002 found</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">153</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">to account retrieved</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">153</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">1001 and 1002 updated succesfully</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">153</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">succesfully transferred</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">153</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">transfer the amount 5000 from account id 1003 to 1002</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">154</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">154</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1003 found</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">154</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">from account retrieved</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">154</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">154</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1002 found</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">155</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">to account retrieved</td>
+</tr>
+
+<tr class="error even">
+<td class="RelativeTime">156</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">ERROR</td>
+<td class="Logger">sapient</td>
+<td class="Message">not enough fund to transfer</td>
+</tr>
+<tr><td class="Exception" colspan="6">com.sapient.exceptions.BalException: not enough fund to transfer
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sapient.client.TransferClient.main(TransferClient.java:30)
+</td></tr><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Tue Jan 02 15:35:12 IST 2018</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="RelativeTime">RelativeTime</td>
+<td class="Thread">Thread</td>
+<td class="MDC">MDC</td>
+<td class="Level">Level</td>
+<td class="Logger">Logger</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="debug even">
+<td class="RelativeTime">150</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">logger initialized with 3 acccount instances</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">154</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">injecting mock</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">155</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">dao initialized</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">155</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">service instance created</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">155</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">transfer the amount 5000 from account id 1001 to 1002</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">156</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">156</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1001 found</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">157</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">from account retrieved</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">158</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">158</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1002 found</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">158</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">to account retrieved</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">158</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">1001 and 1002 updated succesfully</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">159</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">succesfully transferred</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">159</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">transfer the amount 5000 from account id 1003 to 1002</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">159</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info odd">
+<td class="RelativeTime">159</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1003 found</td>
+</tr>
+
+<tr class="debug even">
+<td class="RelativeTime">160</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">from account retrieved</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">160</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">checking the aid against map key</td>
+</tr>
+
+<tr class="info even">
+<td class="RelativeTime">160</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">INFO</td>
+<td class="Logger">sapient</td>
+<td class="Message">account ID 1002 found</td>
+</tr>
+
+<tr class="debug odd">
+<td class="RelativeTime">160</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">DEBUG</td>
+<td class="Logger">sapient</td>
+<td class="Message">to account retrieved</td>
+</tr>
+
+<tr class="error even">
+<td class="RelativeTime">162</td>
+<td class="Thread">main</td>
+<td class="MDC"></td>
+<td class="Level">ERROR</td>
+<td class="Logger">sapient</td>
+<td class="Message">not enough fund to transfer</td>
+</tr>
+<tr><td class="Exception" colspan="6">com.sapient.exceptions.BalException: not enough fund to transfer
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+<br />&nbsp;&nbsp;&nbsp;&nbsp;at com.sapient.client.TransferClient.main(TransferClient.java:30)
+</td></tr>

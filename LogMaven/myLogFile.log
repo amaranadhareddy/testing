@@ -1,0 +1,24 @@
+2018-01-03 11:15:17,988 [main] DEBUG  sapient - logger initialized with 3 acccount instances
+2018-01-03 11:15:17,990 [main] DEBUG  sapient - injecting mock
+2018-01-03 11:15:17,990 [main] INFO   sapient - dao initialized
+2018-01-03 11:15:17,991 [main] DEBUG  sapient - service instance created
+2018-01-03 11:15:17,991 [main] INFO   sapient - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 11:15:17,991 [main] DEBUG  sapient - checking the aid against map key
+2018-01-03 11:15:17,991 [main] INFO   sapient - account ID 1001 found
+2018-01-03 11:15:17,992 [main] DEBUG  sapient - from account retrieved
+2018-01-03 11:15:17,992 [main] DEBUG  sapient - checking the aid against map key
+2018-01-03 11:15:17,992 [main] INFO   sapient - account ID 1002 found
+2018-01-03 11:15:17,992 [main] DEBUG  sapient - to account retrieved
+2018-01-03 11:15:17,992 [main] INFO   sapient - 1001 and 1002 updated succesfully
+2018-01-03 11:15:17,992 [main] INFO   sapient - succesfully transferred
+2018-01-03 11:15:17,992 [main] INFO   sapient - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 11:15:17,992 [main] DEBUG  sapient - checking the aid against map key
+2018-01-03 11:15:17,992 [main] INFO   sapient - account ID 1003 found
+2018-01-03 11:15:17,993 [main] DEBUG  sapient - from account retrieved
+2018-01-03 11:15:17,993 [main] DEBUG  sapient - checking the aid against map key
+2018-01-03 11:15:17,993 [main] INFO   sapient - account ID 1002 found
+2018-01-03 11:15:17,993 [main] DEBUG  sapient - to account retrieved
+2018-01-03 11:15:17,994 [main] ERROR  sapient - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)

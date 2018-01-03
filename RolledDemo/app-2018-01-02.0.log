@@ -1,0 +1,24 @@
+2018-01-02 16:37:57 - logger initialized with 3 acccount instances
+2018-01-02 16:37:57 - injecting mock
+2018-01-02 16:37:57 - dao initialized
+2018-01-02 16:37:57 - service instance created
+2018-01-02 16:37:57 - transfer the amount 5000 from account id 1001 to 1002
+2018-01-02 16:37:57 - checking the aid against map key
+2018-01-02 16:37:57 - account ID 1001 found
+2018-01-02 16:37:57 - from account retrieved
+2018-01-02 16:37:57 - checking the aid against map key
+2018-01-02 16:37:57 - account ID 1002 found
+2018-01-02 16:37:57 - to account retrieved
+2018-01-02 16:37:57 - 1001 and 1002 updated succesfully
+2018-01-02 16:37:57 - succesfully transferred
+2018-01-02 16:37:57 - transfer the amount 5000 from account id 1003 to 1002
+2018-01-02 16:37:57 - checking the aid against map key
+2018-01-02 16:37:57 - account ID 1003 found
+2018-01-02 16:37:57 - from account retrieved
+2018-01-02 16:37:57 - checking the aid against map key
+2018-01-02 16:37:57 - account ID 1002 found
+2018-01-02 16:37:57 - to account retrieved
+2018-01-02 16:37:57 - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)

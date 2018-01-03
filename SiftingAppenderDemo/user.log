@@ -1,0 +1,4 @@
+2018-01-02 16:17:36,015 [main] DEBUG userRole=user sapient - User Action debug
+2018-01-02 16:17:36,022 [main] INFO userRole=user sapient - User Action info
+2018-01-02 16:17:36,023 [main] WARN userRole=user sapient - user action warn
+2018-01-02 16:17:36,023 [main] ERROR userRole=user sapient - user action error

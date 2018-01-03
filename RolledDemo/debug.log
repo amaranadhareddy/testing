@@ -1,0 +1,155 @@
+2018-01-03 09:41:36 DEBUG - checking the aid against map key
+2018-01-03 09:41:37 INFO - account ID 1002 found
+2018-01-03 09:41:37 DEBUG - to account retrieved
+2018-01-03 09:41:37 INFO - 1001 and 1002 updated succesfully
+2018-01-03 09:41:37 INFO - succesfully transferred
+2018-01-03 09:41:37 INFO - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 09:41:37 TRACE - transferFund() invoked in service
+2018-01-03 09:41:37 TRACE - getAccount() invoked
+2018-01-03 09:41:37 DEBUG - checking the aid against map key
+2018-01-03 09:41:37 INFO - account ID 1003 found
+2018-01-03 09:41:37 DEBUG - from account retrieved
+2018-01-03 09:41:37 TRACE - getAccount() invoked
+2018-01-03 09:41:37 DEBUG - checking the aid against map key
+2018-01-03 09:41:37 INFO - account ID 1002 found
+2018-01-03 09:41:37 DEBUG - to account retrieved
+2018-01-03 09:41:37 ERROR - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)
+2018-01-03 09:42:35 TRACE - main thread started
+2018-01-03 09:42:35 TRACE - service constructor is invoked
+2018-01-03 09:42:35 TRACE - static block called in dao
+2018-01-03 09:42:35 DEBUG - logger initialized with 3 acccount instances
+2018-01-03 09:42:35 TRACE - setDao() invoked
+2018-01-03 09:42:35 DEBUG - injecting mock
+2018-01-03 09:42:35 INFO - dao initialized
+2018-01-03 09:42:35 DEBUG - service instance created
+2018-01-03 09:42:35 INFO - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 09:42:35 TRACE - transferFund() invoked in service
+2018-01-03 09:42:35 TRACE - getAccount() invoked
+2018-01-03 09:42:35 DEBUG - checking the aid against map key
+2018-01-03 09:42:35 INFO - account ID 1001 found
+2018-01-03 09:42:35 DEBUG - from account retrieved
+2018-01-03 09:42:35 TRACE - getAccount() invoked
+2018-01-03 09:42:35 DEBUG - checking the aid against map key
+2018-01-03 09:42:35 INFO - account ID 1002 found
+2018-01-03 09:42:35 DEBUG - to account retrieved
+2018-01-03 09:42:35 INFO - 1001 and 1002 updated succesfully
+2018-01-03 09:42:35 INFO - succesfully transferred
+2018-01-03 09:42:35 INFO - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 09:42:35 TRACE - transferFund() invoked in service
+2018-01-03 09:42:35 TRACE - getAccount() invoked
+2018-01-03 09:42:35 DEBUG - checking the aid against map key
+2018-01-03 09:42:35 INFO - account ID 1003 found
+2018-01-03 09:42:35 DEBUG - from account retrieved
+2018-01-03 09:42:35 TRACE - getAccount() invoked
+2018-01-03 09:42:35 DEBUG - checking the aid against map key
+2018-01-03 09:42:35 INFO - account ID 1002 found
+2018-01-03 09:42:35 DEBUG - to account retrieved
+2018-01-03 09:42:35 ERROR - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)
+2018-01-03 09:42:50 TRACE - main thread started
+2018-01-03 09:42:50 TRACE - service constructor is invoked
+2018-01-03 09:42:50 TRACE - static block called in dao
+2018-01-03 09:42:50 DEBUG - logger initialized with 3 acccount instances
+2018-01-03 09:42:50 TRACE - setDao() invoked
+2018-01-03 09:42:50 DEBUG - injecting mock
+2018-01-03 09:42:50 INFO - dao initialized
+2018-01-03 09:42:50 DEBUG - service instance created
+2018-01-03 09:42:50 INFO - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 09:42:50 TRACE - transferFund() invoked in service
+2018-01-03 09:42:50 TRACE - getAccount() invoked
+2018-01-03 09:42:50 DEBUG - checking the aid against map key
+2018-01-03 09:42:50 INFO - account ID 1001 found
+2018-01-03 09:42:50 DEBUG - from account retrieved
+2018-01-03 09:42:50 TRACE - getAccount() invoked
+2018-01-03 09:42:50 DEBUG - checking the aid against map key
+2018-01-03 09:42:50 INFO - account ID 1002 found
+2018-01-03 09:42:50 DEBUG - to account retrieved
+2018-01-03 09:42:50 INFO - 1001 and 1002 updated succesfully
+2018-01-03 09:42:50 INFO - succesfully transferred
+2018-01-03 09:42:50 INFO - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 09:42:50 TRACE - transferFund() invoked in service
+2018-01-03 09:42:50 TRACE - getAccount() invoked
+2018-01-03 09:42:50 DEBUG - checking the aid against map key
+2018-01-03 09:42:50 INFO - account ID 1003 found
+2018-01-03 09:42:50 DEBUG - from account retrieved
+2018-01-03 09:42:50 TRACE - getAccount() invoked
+2018-01-03 09:42:50 DEBUG - checking the aid against map key
+2018-01-03 09:42:50 INFO - account ID 1002 found
+2018-01-03 09:42:50 DEBUG - to account retrieved
+2018-01-03 09:42:50 ERROR - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)
+2018-01-03 09:44:52 TRACE - main thread started
+2018-01-03 09:44:52 TRACE - service constructor is invoked
+2018-01-03 09:44:52 TRACE - static block called in dao
+2018-01-03 09:44:52 DEBUG - logger initialized with 3 acccount instances
+2018-01-03 09:44:52 TRACE - setDao() invoked
+2018-01-03 09:44:52 DEBUG - injecting mock
+2018-01-03 09:44:52 INFO - dao initialized
+2018-01-03 09:44:52 DEBUG - service instance created
+2018-01-03 09:44:52 INFO - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 09:44:52 TRACE - transferFund() invoked in service
+2018-01-03 09:44:52 TRACE - getAccount() invoked
+2018-01-03 09:44:52 DEBUG - checking the aid against map key
+2018-01-03 09:44:52 INFO - account ID 1001 found
+2018-01-03 09:44:52 DEBUG - from account retrieved
+2018-01-03 09:44:52 TRACE - getAccount() invoked
+2018-01-03 09:44:52 DEBUG - checking the aid against map key
+2018-01-03 09:44:52 INFO - account ID 1002 found
+2018-01-03 09:44:52 DEBUG - to account retrieved
+2018-01-03 09:44:52 INFO - 1001 and 1002 updated succesfully
+2018-01-03 09:44:52 INFO - succesfully transferred
+2018-01-03 09:44:52 INFO - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 09:44:52 TRACE - transferFund() invoked in service
+2018-01-03 09:44:52 TRACE - getAccount() invoked
+2018-01-03 09:44:52 DEBUG - checking the aid against map key
+2018-01-03 09:44:52 INFO - account ID 1003 found
+2018-01-03 09:44:52 DEBUG - from account retrieved
+2018-01-03 09:44:52 TRACE - getAccount() invoked
+2018-01-03 09:44:52 DEBUG - checking the aid against map key
+2018-01-03 09:44:52 INFO - account ID 1002 found
+2018-01-03 09:44:52 DEBUG - to account retrieved
+2018-01-03 09:44:52 ERROR - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)
+2018-01-03 09:45:09 TRACE - main thread started
+2018-01-03 09:45:09 TRACE - service constructor is invoked
+2018-01-03 09:45:09 TRACE - static block called in dao
+2018-01-03 09:45:09 DEBUG - logger initialized with 3 acccount instances
+2018-01-03 09:45:09 TRACE - setDao() invoked
+2018-01-03 09:45:09 DEBUG - injecting mock
+2018-01-03 09:45:09 INFO - dao initialized
+2018-01-03 09:45:09 DEBUG - service instance created
+2018-01-03 09:45:09 INFO - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 09:45:09 TRACE - transferFund() invoked in service
+2018-01-03 09:45:09 TRACE - getAccount() invoked
+2018-01-03 09:45:09 DEBUG - checking the aid against map key
+2018-01-03 09:45:09 INFO - account ID 1001 found
+2018-01-03 09:45:09 DEBUG - from account retrieved
+2018-01-03 09:45:09 TRACE - getAccount() invoked
+2018-01-03 09:45:09 DEBUG - checking the aid against map key
+2018-01-03 09:45:09 INFO - account ID 1002 found
+2018-01-03 09:45:09 DEBUG - to account retrieved
+2018-01-03 09:45:09 INFO - 1001 and 1002 updated succesfully
+2018-01-03 09:45:09 INFO - succesfully transferred
+2018-01-03 09:45:09 INFO - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 09:45:09 TRACE - transferFund() invoked in service
+2018-01-03 09:45:09 TRACE - getAccount() invoked
+2018-01-03 09:45:09 DEBUG - checking the aid against map key
+2018-01-03 09:45:09 INFO - account ID 1003 found
+2018-01-03 09:45:09 DEBUG - from account retrieved
+2018-01-03 09:45:09 TRACE - getAccount() invoked
+2018-01-03 09:45:09 DEBUG - checking the aid against map key
+2018-01-03 09:45:09 INFO - account ID 1002 found
+2018-01-03 09:45:09 DEBUG - to account retrieved
+2018-01-03 09:45:09 ERROR - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)

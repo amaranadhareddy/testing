@@ -1,0 +1,49 @@
+2018-01-03 09:40:26 TRACE - main thread started
+2018-01-03 09:40:26 TRACE - service constructor is invoked
+2018-01-03 09:40:26 TRACE - static block called in dao
+2018-01-03 09:40:26 DEBUG - logger initialized with 3 acccount instances
+2018-01-03 09:40:26 TRACE - setDao() invoked
+2018-01-03 09:40:26 DEBUG - injecting mock
+2018-01-03 09:40:26 INFO - dao initialized
+2018-01-03 09:40:26 DEBUG - service instance created
+2018-01-03 09:40:26 INFO - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 09:40:26 TRACE - transferFund() invoked in service
+2018-01-03 09:40:26 TRACE - getAccount() invoked
+2018-01-03 09:40:26 DEBUG - checking the aid against map key
+2018-01-03 09:40:26 INFO - account ID 1001 found
+2018-01-03 09:40:26 DEBUG - from account retrieved
+2018-01-03 09:40:26 TRACE - getAccount() invoked
+2018-01-03 09:40:26 DEBUG - checking the aid against map key
+2018-01-03 09:40:26 INFO - account ID 1002 found
+2018-01-03 09:40:26 DEBUG - to account retrieved
+2018-01-03 09:40:26 INFO - 1001 and 1002 updated succesfully
+2018-01-03 09:40:26 INFO - succesfully transferred
+2018-01-03 09:40:26 INFO - transfer the amount 5000 from account id 1003 to 1002
+2018-01-03 09:40:26 TRACE - transferFund() invoked in service
+2018-01-03 09:40:26 TRACE - getAccount() invoked
+2018-01-03 09:40:26 DEBUG - checking the aid against map key
+2018-01-03 09:40:26 INFO - account ID 1003 found
+2018-01-03 09:40:26 DEBUG - from account retrieved
+2018-01-03 09:40:26 TRACE - getAccount() invoked
+2018-01-03 09:40:26 DEBUG - checking the aid against map key
+2018-01-03 09:40:26 INFO - account ID 1002 found
+2018-01-03 09:40:26 DEBUG - to account retrieved
+2018-01-03 09:40:26 ERROR - not enough fund to transfer
+com.sapient.exceptions.BalException: not enough fund to transfer
+	at com.sapient.service.SerImpl.transferFund(SerImpl.java:38)
+	at com.sapient.client.TransferClient.main(TransferClient.java:30)
+2018-01-03 09:41:36 TRACE - main thread started
+2018-01-03 09:41:36 TRACE - service constructor is invoked
+2018-01-03 09:41:36 TRACE - static block called in dao
+2018-01-03 09:41:36 DEBUG - logger initialized with 3 acccount instances
+2018-01-03 09:41:36 TRACE - setDao() invoked
+2018-01-03 09:41:36 DEBUG - injecting mock
+2018-01-03 09:41:36 INFO - dao initialized
+2018-01-03 09:41:36 DEBUG - service instance created
+2018-01-03 09:41:36 INFO - transfer the amount 5000 from account id 1001 to 1002
+2018-01-03 09:41:36 TRACE - transferFund() invoked in service
+2018-01-03 09:41:36 TRACE - getAccount() invoked
+2018-01-03 09:41:36 DEBUG - checking the aid against map key
+2018-01-03 09:41:36 INFO - account ID 1001 found
+2018-01-03 09:41:36 DEBUG - from account retrieved
+2018-01-03 09:41:36 TRACE - getAccount() invoked
